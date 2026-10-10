@@ -23,7 +23,7 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      - name: 编译 Debug APK（使用服务器自带 Android SDK）
+      - name: 编译 Debug APK
         working-directory: android
         run: gradle assembleDebug --no-daemon
 
